@@ -1,0 +1,8 @@
+Nom : Batman
+Email : batman@email.fr
+Message : Moi c'est Batman !
+----------------
+Nom : Marc
+Email : marc@email.fr
+Message : Moi c'est Marc ! Bonjour !
+----------------
