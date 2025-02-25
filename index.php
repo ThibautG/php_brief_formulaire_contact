@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // $_SERVER est appelée variable s
         $_SESSION['merci'] = "Merci pour votre engagement $name";
 
         header("Location: index.php");
+        /*header("Location: message.php");*/
         exit();
     } else {
         $_SESSION['message'] = "Veuillez remplir tous les champs !";
