@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // $_SERVER est appelée variable s
     // Vérification que le champ n'est pas vide
     if ($name !== '' && $email !== '' && $comment !== '') {
         // Stockage du message dans la session
-        $_SESSION['message'] = "Nom : $name, Email : $email, Message : $comment<br>";
+        $_SESSION['message'] = "Nom : $name\nEmail : $email\nMessage : $comment\n----------------\n";
         $_SESSION['merci'] = "Merci pour votre engagement $name";
 
         header("Location: index.php");
